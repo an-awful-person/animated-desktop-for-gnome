@@ -1,0 +1,12 @@
+# compiled by install.sh in the install destination; never needed in the repo
+schemas/gschemas.compiled
+# packed extension bundles (gnome-extensions pack)
+*.shell-extension.zip
+*.zip
+# editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+__pycache__/

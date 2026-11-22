@@ -1,0 +1,8 @@
+{
+  "uuid": "lowpoly-waves@local",
+  "name": "Low-poly Waves",
+  "description": "Animated desktop background: a slowly rolling low-poly sea in Ubuntu colours (24.04 aubergine or classic purple-orange). A GPU shader inside the compositor with a capped frame rate that pauses when the desktop is covered.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.lowpoly-waves",
+  "version": 1
+}

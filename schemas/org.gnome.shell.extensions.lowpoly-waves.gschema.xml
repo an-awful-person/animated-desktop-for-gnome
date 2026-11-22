@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.lowpoly-waves" path="/org/gnome/shell/extensions/lowpoly-waves/">
+    <key name="style" type="s">
+      <choices>
+        <choice value="aubergine"/>
+        <choice value="lowpoly"/>
+      </choices>
+      <default>'aubergine'</default>
+      <summary>Background style</summary>
+      <description>aubergine: low-poly sea in Ubuntu 24.04 colours with deep shadows. lowpoly: classic purple-to-orange.</description>
+    </key>
+    <key name="fps" type="i">
+      <range min="1" max="60"/>
+      <default>30</default>
+      <summary>Frames per second</summary>
+      <description>Upper limit for background redraws.</description>
+    </key>
+    <key name="speed" type="d">
+      <range min="0.05" max="5.0"/>
+      <default>1.0</default>
+      <summary>Wave speed multiplier</summary>
+    </key>
+    <key name="rows" type="d">
+      <range min="2.0" max="30.0"/>
+      <default>2.5</default>
+      <summary>Triangle rows over the screen height</summary>
+      <description>Lower values give bigger facets.</description>
+    </key>
+    <key name="drift" type="d">
+      <range min="0.0" max="0.08"/>
+      <default>0.08</default>
+      <summary>Sideways drift of the triangle corners (0.08 = full)</summary>
+    </key>
+    <key name="pause-when-covered" type="b">
+      <default>true</default>
+      <summary>Pause while a maximized or fullscreen window covers the monitor</summary>
+    </key>
+  </schema>
+</schemalist>
