@@ -27,7 +27,7 @@
 
 ## Installation
 ```bash
-git clone https://github.com/YOUR-USERNAME/low-poly-waves.git
+git clone https://github.com/an-awful-person/animated-desktop-for-gnome.git
 cd low-poly-waves
 ./install.sh
 ```
